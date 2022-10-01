@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 100%;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #212121;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    border: 1px solid #212121;
+    background: #717171;
+}
+
+#NavMenu {
+    min-width: 20%;
+    background-color: #212121;
+    color: #fff;
+    max-height: 100vh;
+
+    .logo {
+        height: 10%;
+        padding-bottom: 15px;
+        text-align: center;
+
+        .bi-youtube {
+            font-size: 40px;
+            color: red;
+            font-style: normal;
+        }
+
+        .youtube {
+            position: relative;
+            bottom: 5px;
+            font-weight: bold;
+            margin-left: 8px;
+
+            sup {
+                font-weight: 300;
+                font-size: 10px;
+                color: rgba(255, 255, 255, 0.479);
+            }
+        }
+    }
+
+    .Menu {
+        height: 90%;
+        overflow: auto;
+
+        .subscribe {
+            text-align: center;
+            opacity: 0.5;
+        }
+
+        .line {
+            width: 90%;
+            height: 1px;
+            background-color: #383838;
+        }
+
+        .Menu-item {
+            position: relative;
+            cursor: pointer;
+
+            .logo-item {
+                padding: 10px;
+                font-size: 14px;
+                display: flex;
+                align-items: center;
+
+                &:hover {
+                    background: grey;
+                }
+
+                .icon,
+                .name {
+                    margin-left: 15px;
+                }
+
+                img {
+                    margin-left: 15px;
+                    width: 35px;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+}

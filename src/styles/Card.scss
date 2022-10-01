@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    display: block;
+
+    .card-thumb {
+        width: 100%;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+
+    .card-info {
+        display: flex;
+        overflow: visible;
+        max-width: 300px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        background: rgb(61, 59, 59);
+        padding: 5px;
+
+        .card-avt {
+            margin-top: 15px;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+        }
+
+        .title {
+            color: #fff;
+            margin-left: 10px;
+
+            .channel {
+                font-style: italic;
+                font-size: 13px;
+            }
+
+            .view {
+                font-size: 13px;
+            }
+        }
+    }
+}
