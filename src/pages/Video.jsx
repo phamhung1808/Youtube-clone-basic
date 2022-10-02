@@ -23,7 +23,7 @@ class Video extends React.Component {
                     <div className="left-body">
                         <img src={thumb} alt="" />
                         <div className="icon-body">
-                            <div className="title">5S Online Tập 218 Biến thỏ thành cáo</div>
+                            <div className="title">Top CSS & Javascript Effects</div>
                             <div className="list-button">
                                 {listbutton.map((listbtn) => (
                                     <div className="menu-item">
